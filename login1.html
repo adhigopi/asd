@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+   
+    <div class="container">
+    <h3>Login</h3>
+    <form action="">
+
+        <label for="name" class="user">Userame </label><br>
+        <input type="text" id="name" class="line" placeholder="Enter Your Name"><br><br>
+        <label for="password" class="user">Password </label><br>
+        <input type="password" id="password"class="line2"  placeholder="Enter  Password">
+        <p>forgot password?</p>
+        <input type="submit" value="LOGIN" class="login">
+        <h6>or sign up using</h6>
+        <i class="fa-brands fa-facebook fa-lg"></i>
+        <i class="fa-brands fa-twitter fa-lg"></i>
+        <i class="fa-brands fa-google fa-lg"></i>
+        <h6>SIGNUP</h6>
+    </form>
+    </div>
+        
+</body>
+</html>
+<style>
+    body{
+       /* background:linear-gradient(to right,rgb(109, 51, 236),rgb(243, 124, 221));*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background: url(001.jpg);
+        background-size: cover;
+        height: 400px;
+        
+    }
+    .line{
+        border: none;
+        border-bottom: 1px solid silver;
+        border-radius: 5px;
+       
+    }
+    .line2{
+        border: none;
+        border-bottom: 1px solid silver;
+        border-radius: 5px;
+    }
+
+    .container{
+        background-color: transparent;
+        height: 400px;
+        width: 250px;
+        margin: auto;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 100px;
+        box-shadow:5px 5px 5px 5px black;
+        
+    }
+    p{
+        text-align: right;
+        color: aquamarine;
+    }
+    h3{
+        color: rgb(233, 10, 25);
+    }
+    .user{
+        color: rgb(16, 182, 204);
+    }
+    h6{
+        color: rgb(234, 12, 119);
+    }
+    
+    input{
+        margin-top: 5px;
+    }
+    .login  {
+        color: aqua;
+        width: 230px;
+        border-radius: 10px;
+        background:linear-gradient(to right,rgba(182, 94, 6, 0.524),rgb(226, 38, 179),pink);
+        transition: opacity 0.15s;
+        box-shadow:4px 4px 8px rgb(201, 230, 241);
+        cursor:pointer;
+       
+
+       
+    }
+    .login:hover{
+        color:rgb(144, 200, 248);
+        background:linear-gradient(to right, rgb(29, 221, 224),rgb(132, 63, 228));
+        opacity:0.15s;
+
+    }
+    .glass{
+        height: 250px;
+        width: 150px;
+    
+    }
+    i[class*="fa-facebook"]{
+        color: rgb(3,3,53);
+    }
+    i[class*="fa-twitter"]{
+        color: rgba(6, 89, 243, 0.474);
+    }
+    i[class*="fa-google"]{
+        color: rgb(224, 89, 6);
+    }
+    label{
+        margin-right: 110px;
+
+    }
+    
+    
+</style>
